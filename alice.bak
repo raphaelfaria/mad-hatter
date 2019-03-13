@@ -1,0 +1,2235 @@
+EESchema Schematic File Version 4
+LIBS:alice-cache
+EELAYER 26 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L keyboard_parts:KEYSW K_PRSCR1
+U 1 1 025CD093
+P 4850 4900
+F 0 "K_PRSCR1" H 4850 5133 60  0000 C CNN
+F 1 "KEYSW" H 4850 4800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 4850 4900 60  0001 C CNN
+F 3 "" H 4850 4900 60  0000 C CNN
+	1    4850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_PRSCR1
+U 1 1 5C8C2990
+P 4500 5150
+F 0 "D_PRSCR1" V 4546 5071 50  0000 R CNN
+F 1 "D" V 4445 5071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 4500 5150 50  0001 C CNN
+F 3 "~" H 4500 5150 50  0001 C CNN
+	1    4500 5150
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4250 5300 0    50   Input ~ 0
+row0
+Wire Wire Line
+	4250 5300 4500 5300
+Text GLabel 5150 4550 0    50   Input ~ 0
+col0
+Wire Wire Line
+	5150 4550 5150 4900
+Wire Wire Line
+	4550 4900 4500 4900
+Wire Wire Line
+	4500 4900 4500 5000
+Connection ~ 5150 4900
+Connection ~ 4500 5300
+$Comp
+L keyboard_parts:KEYSW K_`1
+U 1 1 5C8C2993
+P 5850 4900
+F 0 "K_`1" H 5850 5133 60  0000 C CNN
+F 1 "KEYSW" H 5850 4800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 5850 4900 60  0001 C CNN
+F 3 "" H 5850 4900 60  0000 C CNN
+	1    5850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_`1
+U 1 1 025CD5AB
+P 5500 5150
+F 0 "D_`1" V 5546 5071 50  0000 R CNN
+F 1 "D" V 5445 5071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 5500 5150 50  0001 C CNN
+F 3 "~" H 5500 5150 50  0001 C CNN
+	1    5500 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 5300 5500 5300
+Text GLabel 6150 4550 0    50   Input ~ 0
+col1
+Wire Wire Line
+	6150 4550 6150 4900
+Wire Wire Line
+	5550 4900 5500 4900
+Wire Wire Line
+	5500 4900 5500 5000
+Connection ~ 6150 4900
+Connection ~ 5500 5300
+$Comp
+L keyboard_parts:KEYSW K_1
+U 1 1 025CB63F
+P 6850 4900
+F 0 "K_1" H 6850 5133 60  0000 C CNN
+F 1 "KEYSW" H 6850 4800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 6850 4900 60  0001 C CNN
+F 3 "" H 6850 4900 60  0000 C CNN
+	1    6850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_1
+U 1 1 5C8C2987
+P 6500 5150
+F 0 "D_1" V 6546 5071 50  0000 R CNN
+F 1 "D" V 6445 5071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 6500 5150 50  0001 C CNN
+F 3 "~" H 6500 5150 50  0001 C CNN
+	1    6500 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5500 5300 6500 5300
+Text GLabel 7150 4550 0    50   Input ~ 0
+col2
+Wire Wire Line
+	7150 4550 7150 4900
+Wire Wire Line
+	6550 4900 6500 4900
+Wire Wire Line
+	6500 4900 6500 5000
+Connection ~ 7150 4900
+Connection ~ 6500 5300
+$Comp
+L keyboard_parts:KEYSW K_2
+U 1 1 5C8C2960
+P 7850 4900
+F 0 "K_2" H 7850 5133 60  0000 C CNN
+F 1 "KEYSW" H 7850 4800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 7850 4900 60  0001 C CNN
+F 3 "" H 7850 4900 60  0000 C CNN
+	1    7850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_2
+U 1 1 025C0E37
+P 7500 5150
+F 0 "D_2" V 7546 5071 50  0000 R CNN
+F 1 "D" V 7445 5071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 7500 5150 50  0001 C CNN
+F 3 "~" H 7500 5150 50  0001 C CNN
+	1    7500 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 5300 7500 5300
+Text GLabel 8150 4550 0    50   Input ~ 0
+col3
+Wire Wire Line
+	8150 4550 8150 4900
+Wire Wire Line
+	7550 4900 7500 4900
+Wire Wire Line
+	7500 4900 7500 5000
+Connection ~ 8150 4900
+Connection ~ 7500 5300
+$Comp
+L keyboard_parts:KEYSW K_3
+U 1 1 025CF31E
+P 8850 4900
+F 0 "K_3" H 8850 5133 60  0000 C CNN
+F 1 "KEYSW" H 8850 4800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 8850 4900 60  0001 C CNN
+F 3 "" H 8850 4900 60  0000 C CNN
+	1    8850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_3
+U 1 1 5C8C299A
+P 8500 5150
+F 0 "D_3" V 8546 5071 50  0000 R CNN
+F 1 "D" V 8445 5071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 8500 5150 50  0001 C CNN
+F 3 "~" H 8500 5150 50  0001 C CNN
+	1    8500 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7500 5300 8500 5300
+Text GLabel 9150 4550 0    50   Input ~ 0
+col4
+Wire Wire Line
+	9150 4550 9150 4900
+Wire Wire Line
+	8550 4900 8500 4900
+Wire Wire Line
+	8500 4900 8500 5000
+Connection ~ 9150 4900
+Connection ~ 8500 5300
+$Comp
+L keyboard_parts:KEYSW K_4
+U 1 1 025C5848
+P 9850 4900
+F 0 "K_4" H 9850 5133 60  0000 C CNN
+F 1 "KEYSW" H 9850 4800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 9850 4900 60  0001 C CNN
+F 3 "" H 9850 4900 60  0000 C CNN
+	1    9850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_4
+U 1 1 5C8C2979
+P 9500 5150
+F 0 "D_4" V 9546 5071 50  0000 R CNN
+F 1 "D" V 9445 5071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 9500 5150 50  0001 C CNN
+F 3 "~" H 9500 5150 50  0001 C CNN
+	1    9500 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8500 5300 9500 5300
+Text GLabel 10150 4550 0    50   Input ~ 0
+col5
+Wire Wire Line
+	10150 4550 10150 4900
+Wire Wire Line
+	9550 4900 9500 4900
+Wire Wire Line
+	9500 4900 9500 5000
+Connection ~ 10150 4900
+Connection ~ 9500 5300
+$Comp
+L keyboard_parts:KEYSW K_5
+U 1 1 5C8C2974
+P 10850 4900
+F 0 "K_5" H 10850 5133 60  0000 C CNN
+F 1 "KEYSW" H 10850 4800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 10850 4900 60  0001 C CNN
+F 3 "" H 10850 4900 60  0000 C CNN
+	1    10850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_5
+U 1 1 025C4B77
+P 10500 5150
+F 0 "D_5" V 10546 5071 50  0000 R CNN
+F 1 "D" V 10445 5071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 10500 5150 50  0001 C CNN
+F 3 "~" H 10500 5150 50  0001 C CNN
+	1    10500 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 5300 10500 5300
+Text GLabel 11150 4550 0    50   Input ~ 0
+col6
+Wire Wire Line
+	11150 4550 11150 4900
+Wire Wire Line
+	10550 4900 10500 4900
+Wire Wire Line
+	10500 4900 10500 5000
+Connection ~ 11150 4900
+Connection ~ 10500 5300
+$Comp
+L keyboard_parts:KEYSW K_6
+U 1 1 5C8C2980
+P 11850 4900
+F 0 "K_6" H 11850 5133 60  0000 C CNN
+F 1 "KEYSW" H 11850 4800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 11850 4900 60  0001 C CNN
+F 3 "" H 11850 4900 60  0000 C CNN
+	1    11850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_6
+U 1 1 025C87F3
+P 11500 5150
+F 0 "D_6" V 11546 5071 50  0000 R CNN
+F 1 "D" V 11445 5071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 11500 5150 50  0001 C CNN
+F 3 "~" H 11500 5150 50  0001 C CNN
+	1    11500 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10500 5300 11500 5300
+Text GLabel 12150 4550 0    50   Input ~ 0
+col7
+Wire Wire Line
+	12150 4550 12150 4900
+Wire Wire Line
+	11550 4900 11500 4900
+Wire Wire Line
+	11500 4900 11500 5000
+Connection ~ 12150 4900
+Connection ~ 11500 5300
+$Comp
+L keyboard_parts:KEYSW K_7
+U 1 1 025CE11F
+P 12850 4900
+F 0 "K_7" H 12850 5133 60  0000 C CNN
+F 1 "KEYSW" H 12850 4800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 12850 4900 60  0001 C CNN
+F 3 "" H 12850 4900 60  0000 C CNN
+	1    12850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_7
+U 1 1 5C8C2997
+P 12500 5150
+F 0 "D_7" V 12546 5071 50  0000 R CNN
+F 1 "D" V 12445 5071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 12500 5150 50  0001 C CNN
+F 3 "~" H 12500 5150 50  0001 C CNN
+	1    12500 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11500 5300 12500 5300
+Text GLabel 13150 4550 0    50   Input ~ 0
+col8
+Wire Wire Line
+	13150 4550 13150 4900
+Wire Wire Line
+	12550 4900 12500 4900
+Wire Wire Line
+	12500 4900 12500 5000
+Connection ~ 13150 4900
+Connection ~ 12500 5300
+$Comp
+L keyboard_parts:KEYSW K_8
+U 1 1 5C8C2986
+P 13850 4900
+F 0 "K_8" H 13850 5133 60  0000 C CNN
+F 1 "KEYSW" H 13850 4800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 13850 4900 60  0001 C CNN
+F 3 "" H 13850 4900 60  0000 C CNN
+	1    13850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_8
+U 1 1 025CB4A0
+P 13500 5150
+F 0 "D_8" V 13546 5071 50  0000 R CNN
+F 1 "D" V 13445 5071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 13500 5150 50  0001 C CNN
+F 3 "~" H 13500 5150 50  0001 C CNN
+	1    13500 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12500 5300 13500 5300
+Text GLabel 14150 4550 0    50   Input ~ 0
+col9
+Wire Wire Line
+	14150 4550 14150 4900
+Wire Wire Line
+	13550 4900 13500 4900
+Wire Wire Line
+	13500 4900 13500 5000
+Connection ~ 14150 4900
+Connection ~ 13500 5300
+$Comp
+L keyboard_parts:KEYSW K_9
+U 1 1 5C8C2967
+P 14850 4900
+F 0 "K_9" H 14850 5133 60  0000 C CNN
+F 1 "KEYSW" H 14850 4800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 14850 4900 60  0001 C CNN
+F 3 "" H 14850 4900 60  0000 C CNN
+	1    14850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_9
+U 1 1 025C18CE
+P 14500 5150
+F 0 "D_9" V 14546 5071 50  0000 R CNN
+F 1 "D" V 14445 5071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 14500 5150 50  0001 C CNN
+F 3 "~" H 14500 5150 50  0001 C CNN
+	1    14500 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13500 5300 14500 5300
+Text GLabel 15150 4550 0    50   Input ~ 0
+col10
+Wire Wire Line
+	15150 4550 15150 4900
+Wire Wire Line
+	14550 4900 14500 4900
+Wire Wire Line
+	14500 4900 14500 5000
+Connection ~ 15150 4900
+Connection ~ 14500 5300
+$Comp
+L keyboard_parts:KEYSW K_0
+U 1 1 025CC63A
+P 15850 4900
+F 0 "K_0" H 15850 5133 60  0000 C CNN
+F 1 "KEYSW" H 15850 4800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 15850 4900 60  0001 C CNN
+F 3 "" H 15850 4900 60  0000 C CNN
+	1    15850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_0
+U 1 1 5C8C298E
+P 15500 5150
+F 0 "D_0" V 15546 5071 50  0000 R CNN
+F 1 "D" V 15445 5071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 15500 5150 50  0001 C CNN
+F 3 "~" H 15500 5150 50  0001 C CNN
+	1    15500 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14500 5300 15500 5300
+Text GLabel 16150 4550 0    50   Input ~ 0
+col11
+Wire Wire Line
+	16150 4550 16150 4900
+Wire Wire Line
+	15550 4900 15500 4900
+Wire Wire Line
+	15500 4900 15500 5000
+Connection ~ 16150 4900
+Connection ~ 15500 5300
+$Comp
+L keyboard_parts:KEYSW K_MINUS1
+U 1 1 025C5BAE
+P 16850 4900
+F 0 "K_MINUS1" H 16850 5133 60  0000 C CNN
+F 1 "KEYSW" H 16850 4800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 16850 4900 60  0001 C CNN
+F 3 "" H 16850 4900 60  0000 C CNN
+	1    16850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_MINUS1
+U 1 1 5C8C297B
+P 16500 5150
+F 0 "D_MINUS1" V 16546 5071 50  0000 R CNN
+F 1 "D" V 16445 5071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 16500 5150 50  0001 C CNN
+F 3 "~" H 16500 5150 50  0001 C CNN
+	1    16500 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15500 5300 16500 5300
+Text GLabel 17150 4550 0    50   Input ~ 0
+col12
+Wire Wire Line
+	17150 4550 17150 4900
+Wire Wire Line
+	16550 4900 16500 4900
+Wire Wire Line
+	16500 4900 16500 5000
+Connection ~ 17150 4900
+Connection ~ 16500 5300
+$Comp
+L keyboard_parts:KEYSW K_EQUAL1
+U 1 1 5C8C295C
+P 17850 4900
+F 0 "K_EQUAL1" H 17850 5133 60  0000 C CNN
+F 1 "KEYSW" H 17850 4800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 17850 4900 60  0001 C CNN
+F 3 "" H 17850 4900 60  0000 C CNN
+	1    17850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_EQUAL1
+U 1 1 025C04DD
+P 17500 5150
+F 0 "D_EQUAL1" V 17546 5071 50  0000 R CNN
+F 1 "D" V 17445 5071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 17500 5150 50  0001 C CNN
+F 3 "~" H 17500 5150 50  0001 C CNN
+	1    17500 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16500 5300 17500 5300
+Text GLabel 18150 4550 0    50   Input ~ 0
+col13
+Wire Wire Line
+	18150 4550 18150 4900
+Wire Wire Line
+	17550 4900 17500 4900
+Wire Wire Line
+	17500 4900 17500 5000
+Connection ~ 18150 4900
+Connection ~ 17500 5300
+$Comp
+L keyboard_parts:KEYSW K_BACKSPACE1
+U 1 1 5C8C297E
+P 18850 4900
+F 0 "K_BACKSPACE1" H 18850 5133 60  0000 C CNN
+F 1 "KEYSW" H 18850 4800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 18850 4900 60  0001 C CNN
+F 3 "" H 18850 4900 60  0000 C CNN
+	1    18850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_BACKSPACE1
+U 1 1 025C69D6
+P 18500 5150
+F 0 "D_BACKSPACE1" V 18546 5071 50  0000 R CNN
+F 1 "D" V 18445 5071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 18500 5150 50  0001 C CNN
+F 3 "~" H 18500 5150 50  0001 C CNN
+	1    18500 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17500 5300 18500 5300
+Text GLabel 19150 4550 0    50   Input ~ 0
+col14
+Wire Wire Line
+	19150 4550 19150 4900
+Wire Wire Line
+	18550 4900 18500 4900
+Wire Wire Line
+	18500 4900 18500 5000
+Connection ~ 19150 4900
+$Comp
+L keyboard_parts:KEYSW K_PGUP1
+U 1 1 5C8C2969
+P 4850 5900
+F 0 "K_PGUP1" H 4850 6133 60  0000 C CNN
+F 1 "KEYSW" H 4850 5800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 4850 5900 60  0001 C CNN
+F 3 "" H 4850 5900 60  0000 C CNN
+	1    4850 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_PGUP1
+U 1 1 025C23F1
+P 4500 6150
+F 0 "D_PGUP1" V 4546 6071 50  0000 R CNN
+F 1 "D" V 4445 6071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 4500 6150 50  0001 C CNN
+F 3 "~" H 4500 6150 50  0001 C CNN
+	1    4500 6150
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4250 6300 0    50   Input ~ 0
+row1
+Wire Wire Line
+	4250 6300 4500 6300
+Wire Wire Line
+	5150 4900 5150 5900
+Wire Wire Line
+	4550 5900 4500 5900
+Wire Wire Line
+	4500 5900 4500 6000
+Connection ~ 5150 5900
+Connection ~ 4500 6300
+$Comp
+L keyboard_parts:KEYSW K_TAB1
+U 1 1 5C8C2973
+P 5850 5900
+F 0 "K_TAB1" H 5850 6133 60  0000 C CNN
+F 1 "KEYSW" H 5850 5800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 5850 5900 60  0001 C CNN
+F 3 "" H 5850 5900 60  0000 C CNN
+	1    5850 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_TAB1
+U 1 1 025C46EE
+P 5500 6150
+F 0 "D_TAB1" V 5546 6071 50  0000 R CNN
+F 1 "D" V 5445 6071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 5500 6150 50  0001 C CNN
+F 3 "~" H 5500 6150 50  0001 C CNN
+	1    5500 6150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 6300 5500 6300
+Wire Wire Line
+	6150 4900 6150 5900
+Wire Wire Line
+	5550 5900 5500 5900
+Wire Wire Line
+	5500 5900 5500 6000
+Connection ~ 6150 5900
+Connection ~ 5500 6300
+$Comp
+L keyboard_parts:KEYSW K_Q1
+U 1 1 5C8C2977
+P 6850 5900
+F 0 "K_Q1" H 6850 6133 60  0000 C CNN
+F 1 "KEYSW" H 6850 5800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 6850 5900 60  0001 C CNN
+F 3 "" H 6850 5900 60  0000 C CNN
+	1    6850 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_Q1
+U 1 1 025C4DC9
+P 6500 6150
+F 0 "D_Q1" V 6546 6071 50  0000 R CNN
+F 1 "D" V 6445 6071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 6500 6150 50  0001 C CNN
+F 3 "~" H 6500 6150 50  0001 C CNN
+	1    6500 6150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5500 6300 6500 6300
+Wire Wire Line
+	7150 4900 7150 5900
+Wire Wire Line
+	6550 5900 6500 5900
+Wire Wire Line
+	6500 5900 6500 6000
+Connection ~ 7150 5900
+Connection ~ 6500 6300
+$Comp
+L keyboard_parts:KEYSW K_W1
+U 1 1 5C8C2992
+P 7850 5900
+F 0 "K_W1" H 7850 6133 60  0000 C CNN
+F 1 "KEYSW" H 7850 5800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 7850 5900 60  0001 C CNN
+F 3 "" H 7850 5900 60  0000 C CNN
+	1    7850 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_W1
+U 1 1 025CD2B2
+P 7500 6150
+F 0 "D_W1" V 7546 6071 50  0000 R CNN
+F 1 "D" V 7445 6071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 7500 6150 50  0001 C CNN
+F 3 "~" H 7500 6150 50  0001 C CNN
+	1    7500 6150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 6300 7500 6300
+Wire Wire Line
+	8150 4900 8150 5900
+Wire Wire Line
+	7550 5900 7500 5900
+Wire Wire Line
+	7500 5900 7500 6000
+Connection ~ 8150 5900
+Connection ~ 7500 6300
+$Comp
+L keyboard_parts:KEYSW K_E1
+U 1 1 025CB2CA
+P 8850 5900
+F 0 "K_E1" H 8850 6133 60  0000 C CNN
+F 1 "KEYSW" H 8850 5800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 8850 5900 60  0001 C CNN
+F 3 "" H 8850 5900 60  0000 C CNN
+	1    8850 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_E1
+U 1 1 5C8C2985
+P 8500 6150
+F 0 "D_E1" V 8546 6071 50  0000 R CNN
+F 1 "D" V 8445 6071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 8500 6150 50  0001 C CNN
+F 3 "~" H 8500 6150 50  0001 C CNN
+	1    8500 6150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7500 6300 8500 6300
+Wire Wire Line
+	9150 4900 9150 5900
+Wire Wire Line
+	8550 5900 8500 5900
+Wire Wire Line
+	8500 5900 8500 6000
+Connection ~ 9150 5900
+Connection ~ 8500 6300
+$Comp
+L keyboard_parts:KEYSW K_R1
+U 1 1 025C4CBD
+P 9850 5900
+F 0 "K_R1" H 9850 6133 60  0000 C CNN
+F 1 "KEYSW" H 9850 5800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 9850 5900 60  0001 C CNN
+F 3 "" H 9850 5900 60  0000 C CNN
+	1    9850 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_R1
+U 1 1 5C8C2976
+P 9500 6150
+F 0 "D_R1" V 9546 6071 50  0000 R CNN
+F 1 "D" V 9445 6071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 9500 6150 50  0001 C CNN
+F 3 "~" H 9500 6150 50  0001 C CNN
+	1    9500 6150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8500 6300 9500 6300
+Wire Wire Line
+	10150 4900 10150 5900
+Wire Wire Line
+	9550 5900 9500 5900
+Wire Wire Line
+	9500 5900 9500 6000
+Connection ~ 10150 5900
+Connection ~ 9500 6300
+$Comp
+L keyboard_parts:KEYSW K_T1
+U 1 1 5C8C297F
+P 10850 5900
+F 0 "K_T1" H 10850 6133 60  0000 C CNN
+F 1 "KEYSW" H 10850 5800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 10850 5900 60  0001 C CNN
+F 3 "" H 10850 5900 60  0000 C CNN
+	1    10850 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_T1
+U 1 1 025C7FC4
+P 10500 6150
+F 0 "D_T1" V 10546 6071 50  0000 R CNN
+F 1 "D" V 10445 6071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 10500 6150 50  0001 C CNN
+F 3 "~" H 10500 6150 50  0001 C CNN
+	1    10500 6150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 6300 10500 6300
+Wire Wire Line
+	11150 4900 11150 5900
+Wire Wire Line
+	10550 5900 10500 5900
+Wire Wire Line
+	10500 5900 10500 6000
+Connection ~ 11150 5900
+Connection ~ 10500 6300
+$Comp
+L keyboard_parts:KEYSW K_Y1
+U 1 1 5C8C2991
+P 11850 5900
+F 0 "K_Y1" H 11850 6133 60  0000 C CNN
+F 1 "KEYSW" H 11850 5800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 11850 5900 60  0001 C CNN
+F 3 "" H 11850 5900 60  0000 C CNN
+	1    11850 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_Y1
+U 1 1 025CD213
+P 11500 6150
+F 0 "D_Y1" V 11546 6071 50  0000 R CNN
+F 1 "D" V 11445 6071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 11500 6150 50  0001 C CNN
+F 3 "~" H 11500 6150 50  0001 C CNN
+	1    11500 6150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10500 6300 11500 6300
+Wire Wire Line
+	12150 4900 12150 5900
+Wire Wire Line
+	11550 5900 11500 5900
+Wire Wire Line
+	11500 5900 11500 6000
+Connection ~ 12150 5900
+Connection ~ 11500 6300
+$Comp
+L keyboard_parts:KEYSW K_U1
+U 1 1 025CB807
+P 12850 5900
+F 0 "K_U1" H 12850 6133 60  0000 C CNN
+F 1 "KEYSW" H 12850 5800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 12850 5900 60  0001 C CNN
+F 3 "" H 12850 5900 60  0000 C CNN
+	1    12850 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_U1
+U 1 1 5C8C2988
+P 12500 6150
+F 0 "D_U1" V 12546 6071 50  0000 R CNN
+F 1 "D" V 12445 6071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 12500 6150 50  0001 C CNN
+F 3 "~" H 12500 6150 50  0001 C CNN
+	1    12500 6150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11500 6300 12500 6300
+Wire Wire Line
+	13150 4900 13150 5900
+Wire Wire Line
+	12550 5900 12500 5900
+Wire Wire Line
+	12500 5900 12500 6000
+Connection ~ 13150 5900
+Connection ~ 12500 6300
+$Comp
+L keyboard_parts:KEYSW K_I1
+U 1 1 5C8C2981
+P 13850 5900
+F 0 "K_I1" H 13850 6133 60  0000 C CNN
+F 1 "KEYSW" H 13850 5800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 13850 5900 60  0001 C CNN
+F 3 "" H 13850 5900 60  0000 C CNN
+	1    13850 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_I1
+U 1 1 025C91D5
+P 13500 6150
+F 0 "D_I1" V 13546 6071 50  0000 R CNN
+F 1 "D" V 13445 6071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 13500 6150 50  0001 C CNN
+F 3 "~" H 13500 6150 50  0001 C CNN
+	1    13500 6150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12500 6300 13500 6300
+Wire Wire Line
+	14150 4900 14150 5900
+Wire Wire Line
+	13550 5900 13500 5900
+Wire Wire Line
+	13500 5900 13500 6000
+Connection ~ 14150 5900
+Connection ~ 13500 6300
+$Comp
+L keyboard_parts:KEYSW K_O1
+U 1 1 025C1232
+P 14850 5900
+F 0 "K_O1" H 14850 6133 60  0000 C CNN
+F 1 "KEYSW" H 14850 5800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 14850 5900 60  0001 C CNN
+F 3 "" H 14850 5900 60  0000 C CNN
+	1    14850 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_O1
+U 1 1 5C8C2963
+P 14500 6150
+F 0 "D_O1" V 14546 6071 50  0000 R CNN
+F 1 "D" V 14445 6071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 14500 6150 50  0001 C CNN
+F 3 "~" H 14500 6150 50  0001 C CNN
+	1    14500 6150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13500 6300 14500 6300
+Wire Wire Line
+	15150 4900 15150 5900
+Wire Wire Line
+	14550 5900 14500 5900
+Wire Wire Line
+	14500 5900 14500 6000
+Connection ~ 15150 5900
+Connection ~ 14500 6300
+$Comp
+L keyboard_parts:KEYSW K_P1
+U 1 1 025C0C28
+P 15850 5900
+F 0 "K_P1" H 15850 6133 60  0000 C CNN
+F 1 "KEYSW" H 15850 5800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 15850 5900 60  0001 C CNN
+F 3 "" H 15850 5900 60  0000 C CNN
+	1    15850 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_P1
+U 1 1 5C8C295F
+P 15500 6150
+F 0 "D_P1" V 15546 6071 50  0000 R CNN
+F 1 "D" V 15445 6071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 15500 6150 50  0001 C CNN
+F 3 "~" H 15500 6150 50  0001 C CNN
+	1    15500 6150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14500 6300 15500 6300
+Wire Wire Line
+	16150 4900 16150 5900
+Wire Wire Line
+	15550 5900 15500 5900
+Wire Wire Line
+	15500 5900 15500 6000
+Connection ~ 16150 5900
+Connection ~ 15500 6300
+$Comp
+L keyboard_parts:KEYSW K_[1
+U 1 1 025C61E5
+P 16850 5900
+F 0 "K_[1" H 16850 6133 60  0000 C CNN
+F 1 "KEYSW" H 16850 5800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 16850 5900 60  0001 C CNN
+F 3 "" H 16850 5900 60  0000 C CNN
+	1    16850 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_[1
+U 1 1 5C8C297C
+P 16500 6150
+F 0 "D_[1" V 16546 6071 50  0000 R CNN
+F 1 "D" V 16445 6071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 16500 6150 50  0001 C CNN
+F 3 "~" H 16500 6150 50  0001 C CNN
+	1    16500 6150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15500 6300 16500 6300
+Wire Wire Line
+	17150 4900 17150 5900
+Wire Wire Line
+	16550 5900 16500 5900
+Wire Wire Line
+	16500 5900 16500 6000
+Connection ~ 17150 5900
+Connection ~ 16500 6300
+$Comp
+L keyboard_parts:KEYSW K_]1
+U 1 1 5C8C2983
+P 17850 5900
+F 0 "K_]1" H 17850 6133 60  0000 C CNN
+F 1 "KEYSW" H 17850 5800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 17850 5900 60  0001 C CNN
+F 3 "" H 17850 5900 60  0000 C CNN
+	1    17850 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_]1
+U 1 1 025C9C60
+P 17500 6150
+F 0 "D_]1" V 17546 6071 50  0000 R CNN
+F 1 "D" V 17445 6071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 17500 6150 50  0001 C CNN
+F 3 "~" H 17500 6150 50  0001 C CNN
+	1    17500 6150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16500 6300 17500 6300
+Wire Wire Line
+	18150 4900 18150 5900
+Wire Wire Line
+	17550 5900 17500 5900
+Wire Wire Line
+	17500 5900 17500 6000
+Connection ~ 18150 5900
+Connection ~ 17500 6300
+$Comp
+L keyboard_parts:KEYSW K_BSLSH1
+U 1 1 5C8C296E
+P 18850 5900
+F 0 "K_BSLSH1" H 18850 6133 60  0000 C CNN
+F 1 "KEYSW" H 18850 5800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 18850 5900 60  0001 C CNN
+F 3 "" H 18850 5900 60  0000 C CNN
+	1    18850 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_BSLSH1
+U 1 1 025C387B
+P 18500 6150
+F 0 "D_BSLSH1" V 18546 6071 50  0000 R CNN
+F 1 "D" V 18445 6071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 18500 6150 50  0001 C CNN
+F 3 "~" H 18500 6150 50  0001 C CNN
+	1    18500 6150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17500 6300 18500 6300
+Wire Wire Line
+	18550 5900 18500 5900
+Wire Wire Line
+	18500 5900 18500 6000
+$Comp
+L keyboard_parts:KEYSW K_PGDN1
+U 1 1 5C8C2999
+P 4850 6900
+F 0 "K_PGDN1" H 4850 7133 60  0000 C CNN
+F 1 "KEYSW" H 4850 6800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 4850 6900 60  0001 C CNN
+F 3 "" H 4850 6900 60  0000 C CNN
+	1    4850 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_PGDN1
+U 1 1 025CE3AD
+P 4500 7150
+F 0 "D_PGDN1" V 4546 7071 50  0000 R CNN
+F 1 "D" V 4445 7071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 4500 7150 50  0001 C CNN
+F 3 "~" H 4500 7150 50  0001 C CNN
+	1    4500 7150
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4250 7300 0    50   Input ~ 0
+row2
+Wire Wire Line
+	4250 7300 4500 7300
+Wire Wire Line
+	5150 5900 5150 6900
+Wire Wire Line
+	4550 6900 4500 6900
+Wire Wire Line
+	4500 6900 4500 7000
+Connection ~ 5150 6900
+Connection ~ 4500 7300
+$Comp
+L keyboard_parts:KEYSW K_CAPS_LOCK1
+U 1 1 025C0A8F
+P 5850 6900
+F 0 "K_CAPS_LOCK1" H 5850 7133 60  0000 C CNN
+F 1 "KEYSW" H 5850 6800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 5850 6900 60  0001 C CNN
+F 3 "" H 5850 6900 60  0000 C CNN
+	1    5850 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_CAPS_LOCK1
+U 1 1 5C8C295E
+P 5500 7150
+F 0 "D_CAPS_LOCK1" V 5546 7071 50  0000 R CNN
+F 1 "D" V 5445 7071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 5500 7150 50  0001 C CNN
+F 3 "~" H 5500 7150 50  0001 C CNN
+	1    5500 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 7300 5500 7300
+Wire Wire Line
+	6150 5900 6150 6900
+Wire Wire Line
+	5550 6900 5500 6900
+Wire Wire Line
+	5500 6900 5500 7000
+Connection ~ 6150 6900
+Connection ~ 5500 7300
+$Comp
+L keyboard_parts:KEYSW K_A1
+U 1 1 5C8C2968
+P 6850 6900
+F 0 "K_A1" H 6850 7133 60  0000 C CNN
+F 1 "KEYSW" H 6850 6800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 6850 6900 60  0001 C CNN
+F 3 "" H 6850 6900 60  0000 C CNN
+	1    6850 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_A1
+U 1 1 025C1EAB
+P 6500 7150
+F 0 "D_A1" V 6546 7071 50  0000 R CNN
+F 1 "D" V 6445 7071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 6500 7150 50  0001 C CNN
+F 3 "~" H 6500 7150 50  0001 C CNN
+	1    6500 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 5900 7150 6900
+Wire Wire Line
+	6550 6900 6500 6900
+Wire Wire Line
+	6500 6900 6500 7000
+Connection ~ 7150 6900
+Connection ~ 6500 7300
+$Comp
+L keyboard_parts:KEYSW K_S1
+U 1 1 5C8C296A
+P 7850 6900
+F 0 "K_S1" H 7850 7133 60  0000 C CNN
+F 1 "KEYSW" H 7850 6800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 7850 6900 60  0001 C CNN
+F 3 "" H 7850 6900 60  0000 C CNN
+	1    7850 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_S1
+U 1 1 025C241B
+P 7500 7150
+F 0 "D_S1" V 7546 7071 50  0000 R CNN
+F 1 "D" V 7445 7071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 7500 7150 50  0001 C CNN
+F 3 "~" H 7500 7150 50  0001 C CNN
+	1    7500 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 7300 7500 7300
+Wire Wire Line
+	8150 5900 8150 6900
+Wire Wire Line
+	7550 6900 7500 6900
+Wire Wire Line
+	7500 6900 7500 7000
+Connection ~ 8150 6900
+Connection ~ 7500 7300
+$Comp
+L keyboard_parts:KEYSW K_D1
+U 1 1 5C8C297D
+P 8850 6900
+F 0 "K_D1" H 8850 7133 60  0000 C CNN
+F 1 "KEYSW" H 8850 6800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 8850 6900 60  0001 C CNN
+F 3 "" H 8850 6900 60  0000 C CNN
+	1    8850 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_D1
+U 1 1 025C66E3
+P 8500 7150
+F 0 "D_D1" V 8546 7071 50  0000 R CNN
+F 1 "D" V 8445 7071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 8500 7150 50  0001 C CNN
+F 3 "~" H 8500 7150 50  0001 C CNN
+	1    8500 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7500 7300 8500 7300
+Wire Wire Line
+	9150 5900 9150 6900
+Wire Wire Line
+	8550 6900 8500 6900
+Wire Wire Line
+	8500 6900 8500 7000
+Connection ~ 9150 6900
+Connection ~ 8500 7300
+$Comp
+L keyboard_parts:KEYSW K_F1
+U 1 1 5C8C2996
+P 9850 6900
+F 0 "K_F1" H 9850 7133 60  0000 C CNN
+F 1 "KEYSW" H 9850 6800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 9850 6900 60  0001 C CNN
+F 3 "" H 9850 6900 60  0000 C CNN
+	1    9850 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_F1
+U 1 1 025CDC70
+P 9500 7150
+F 0 "D_F1" V 9546 7071 50  0000 R CNN
+F 1 "D" V 9445 7071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 9500 7150 50  0001 C CNN
+F 3 "~" H 9500 7150 50  0001 C CNN
+	1    9500 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8500 7300 9500 7300
+Wire Wire Line
+	10150 5900 10150 6900
+Wire Wire Line
+	9550 6900 9500 6900
+Wire Wire Line
+	9500 6900 9500 7000
+Connection ~ 10150 6900
+Connection ~ 9500 7300
+$Comp
+L keyboard_parts:KEYSW K_G1
+U 1 1 025CD07F
+P 10850 6900
+F 0 "K_G1" H 10850 7133 60  0000 C CNN
+F 1 "KEYSW" H 10850 6800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 10850 6900 60  0001 C CNN
+F 3 "" H 10850 6900 60  0000 C CNN
+	1    10850 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_G1
+U 1 1 5C8C298F
+P 10500 7150
+F 0 "D_G1" V 10546 7071 50  0000 R CNN
+F 1 "D" V 10445 7071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 10500 7150 50  0001 C CNN
+F 3 "~" H 10500 7150 50  0001 C CNN
+	1    10500 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 7300 10500 7300
+Wire Wire Line
+	11150 5900 11150 6900
+Wire Wire Line
+	10550 6900 10500 6900
+Wire Wire Line
+	10500 6900 10500 7000
+Connection ~ 11150 6900
+Connection ~ 10500 7300
+$Comp
+L keyboard_parts:KEYSW K_H1
+U 1 1 025CB883
+P 11850 6900
+F 0 "K_H1" H 11850 7133 60  0000 C CNN
+F 1 "KEYSW" H 11850 6800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 11850 6900 60  0001 C CNN
+F 3 "" H 11850 6900 60  0000 C CNN
+	1    11850 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_H1
+U 1 1 5C8C2989
+P 11500 7150
+F 0 "D_H1" V 11546 7071 50  0000 R CNN
+F 1 "D" V 11445 7071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 11500 7150 50  0001 C CNN
+F 3 "~" H 11500 7150 50  0001 C CNN
+	1    11500 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10500 7300 11500 7300
+Wire Wire Line
+	12150 5900 12150 6900
+Wire Wire Line
+	11550 6900 11500 6900
+Wire Wire Line
+	11500 6900 11500 7000
+Connection ~ 12150 6900
+Connection ~ 11500 7300
+$Comp
+L keyboard_parts:KEYSW K_J1
+U 1 1 025CA073
+P 12850 6900
+F 0 "K_J1" H 12850 7133 60  0000 C CNN
+F 1 "KEYSW" H 12850 6800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 12850 6900 60  0001 C CNN
+F 3 "" H 12850 6900 60  0000 C CNN
+	1    12850 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_J1
+U 1 1 5C8C2984
+P 12500 7150
+F 0 "D_J1" V 12546 7071 50  0000 R CNN
+F 1 "D" V 12445 7071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 12500 7150 50  0001 C CNN
+F 3 "~" H 12500 7150 50  0001 C CNN
+	1    12500 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11500 7300 12500 7300
+Wire Wire Line
+	13150 5900 13150 6900
+Wire Wire Line
+	12550 6900 12500 6900
+Wire Wire Line
+	12500 6900 12500 7000
+Connection ~ 13150 6900
+Connection ~ 12500 7300
+$Comp
+L keyboard_parts:KEYSW K_K1
+U 1 1 025C42D4
+P 13850 6900
+F 0 "K_K1" H 13850 7133 60  0000 C CNN
+F 1 "KEYSW" H 13850 6800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 13850 6900 60  0001 C CNN
+F 3 "" H 13850 6900 60  0000 C CNN
+	1    13850 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_K1
+U 1 1 5C8C2971
+P 13500 7150
+F 0 "D_K1" V 13546 7071 50  0000 R CNN
+F 1 "D" V 13445 7071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 13500 7150 50  0001 C CNN
+F 3 "~" H 13500 7150 50  0001 C CNN
+	1    13500 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12500 7300 13500 7300
+Wire Wire Line
+	14150 5900 14150 6900
+Wire Wire Line
+	13550 6900 13500 6900
+Wire Wire Line
+	13500 6900 13500 7000
+Connection ~ 14150 6900
+Connection ~ 13500 7300
+$Comp
+L keyboard_parts:KEYSW K_L1
+U 1 1 5C8C295D
+P 14850 6900
+F 0 "K_L1" H 14850 7133 60  0000 C CNN
+F 1 "KEYSW" H 14850 6800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 14850 6900 60  0001 C CNN
+F 3 "" H 14850 6900 60  0000 C CNN
+	1    14850 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_L1
+U 1 1 025C0866
+P 14500 7150
+F 0 "D_L1" V 14546 7071 50  0000 R CNN
+F 1 "D" V 14445 7071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 14500 7150 50  0001 C CNN
+F 3 "~" H 14500 7150 50  0001 C CNN
+	1    14500 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13500 7300 14500 7300
+Wire Wire Line
+	15150 5900 15150 6900
+Wire Wire Line
+	14550 6900 14500 6900
+Wire Wire Line
+	14500 6900 14500 7000
+Connection ~ 15150 6900
+Connection ~ 14500 7300
+$Comp
+L keyboard_parts:KEYSW K_SEMIC1
+U 1 1 5C8C2978
+P 15850 6900
+F 0 "K_SEMIC1" H 15850 7133 60  0000 C CNN
+F 1 "KEYSW" H 15850 6800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 15850 6900 60  0001 C CNN
+F 3 "" H 15850 6900 60  0000 C CNN
+	1    15850 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_SEMIC1
+U 1 1 025C5731
+P 15500 7150
+F 0 "D_SEMIC1" V 15546 7071 50  0000 R CNN
+F 1 "D" V 15445 7071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 15500 7150 50  0001 C CNN
+F 3 "~" H 15500 7150 50  0001 C CNN
+	1    15500 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14500 7300 15500 7300
+Wire Wire Line
+	16150 5900 16150 6900
+Wire Wire Line
+	15550 6900 15500 6900
+Wire Wire Line
+	15500 6900 15500 7000
+Connection ~ 16150 6900
+Connection ~ 15500 7300
+$Comp
+L keyboard_parts:KEYSW K_QUOTE1
+U 1 1 025CC293
+P 16850 6900
+F 0 "K_QUOTE1" H 16850 7133 60  0000 C CNN
+F 1 "KEYSW" H 16850 6800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 16850 6900 60  0001 C CNN
+F 3 "" H 16850 6900 60  0000 C CNN
+	1    16850 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_QUOTE1
+U 1 1 5C8C298C
+P 16500 7150
+F 0 "D_QUOTE1" V 16546 7071 50  0000 R CNN
+F 1 "D" V 16445 7071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 16500 7150 50  0001 C CNN
+F 3 "~" H 16500 7150 50  0001 C CNN
+	1    16500 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15500 7300 16500 7300
+Wire Wire Line
+	17150 5900 17150 6900
+Wire Wire Line
+	16550 6900 16500 6900
+Wire Wire Line
+	16500 6900 16500 7000
+Connection ~ 17150 6900
+Connection ~ 16500 7300
+$Comp
+L keyboard_parts:KEYSW K_ENTER1
+U 1 1 5C8C296D
+P 17850 6900
+F 0 "K_ENTER1" H 17850 7133 60  0000 C CNN
+F 1 "KEYSW" H 17850 6800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 17850 6900 60  0001 C CNN
+F 3 "" H 17850 6900 60  0000 C CNN
+	1    17850 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_ENTER1
+U 1 1 025C34E5
+P 17500 7150
+F 0 "D_ENTER1" V 17546 7071 50  0000 R CNN
+F 1 "D" V 17445 7071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 17500 7150 50  0001 C CNN
+F 3 "~" H 17500 7150 50  0001 C CNN
+	1    17500 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16500 7300 17500 7300
+Wire Wire Line
+	18150 5900 18150 6900
+Wire Wire Line
+	17550 6900 17500 6900
+Wire Wire Line
+	17500 6900 17500 7000
+Connection ~ 18150 6900
+$Comp
+L keyboard_parts:KEYSW K_SHIFT1
+U 1 1 025CD688
+P 4850 7900
+F 0 "K_SHIFT1" H 4850 8133 60  0000 C CNN
+F 1 "KEYSW" H 4850 7800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 4850 7900 60  0001 C CNN
+F 3 "" H 4850 7900 60  0000 C CNN
+	1    4850 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_SHIFT1
+U 1 1 5C8C2994
+P 4500 8150
+F 0 "D_SHIFT1" V 4546 8071 50  0000 R CNN
+F 1 "D" V 4445 8071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 4500 8150 50  0001 C CNN
+F 3 "~" H 4500 8150 50  0001 C CNN
+	1    4500 8150
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4250 8300 0    50   Input ~ 0
+row3
+Wire Wire Line
+	4250 8300 4500 8300
+Wire Wire Line
+	5150 6900 5150 7900
+Wire Wire Line
+	4550 7900 4500 7900
+Wire Wire Line
+	4500 7900 4500 8000
+Connection ~ 5150 7900
+Connection ~ 4500 8300
+$Comp
+L keyboard_parts:KEYSW K_Z1
+U 1 1 5C8C299B
+P 5850 7900
+F 0 "K_Z1" H 5850 8133 60  0000 C CNN
+F 1 "KEYSW" H 5850 7800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 5850 7900 60  0001 C CNN
+F 3 "" H 5850 7900 60  0000 C CNN
+	1    5850 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_Z1
+U 1 1 025CF46F
+P 5500 8150
+F 0 "D_Z1" V 5546 8071 50  0000 R CNN
+F 1 "D" V 5445 8071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 5500 8150 50  0001 C CNN
+F 3 "~" H 5500 8150 50  0001 C CNN
+	1    5500 8150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 8300 5500 8300
+Wire Wire Line
+	5550 7900 5500 7900
+Wire Wire Line
+	5500 7900 5500 8000
+Connection ~ 6150 7900
+Connection ~ 5500 8300
+$Comp
+L keyboard_parts:KEYSW K_X1
+U 1 1 5C8C296F
+P 6850 7900
+F 0 "K_X1" H 6850 8133 60  0000 C CNN
+F 1 "KEYSW" H 6850 7800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 6850 7900 60  0001 C CNN
+F 3 "" H 6850 7900 60  0000 C CNN
+	1    6850 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_X1
+U 1 1 025C3A83
+P 6500 8150
+F 0 "D_X1" V 6546 8071 50  0000 R CNN
+F 1 "D" V 6445 8071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 6500 8150 50  0001 C CNN
+F 3 "~" H 6500 8150 50  0001 C CNN
+	1    6500 8150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5500 8300 6500 8300
+Wire Wire Line
+	7150 6900 7150 7900
+Wire Wire Line
+	6550 7900 6500 7900
+Wire Wire Line
+	6500 7900 6500 8000
+Connection ~ 7150 7900
+Connection ~ 6500 8300
+$Comp
+L keyboard_parts:KEYSW K_C1
+U 1 1 5C8C2975
+P 7850 7900
+F 0 "K_C1" H 7850 8133 60  0000 C CNN
+F 1 "KEYSW" H 7850 7800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 7850 7900 60  0001 C CNN
+F 3 "" H 7850 7900 60  0000 C CNN
+	1    7850 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_C1
+U 1 1 025C4C8C
+P 7500 8150
+F 0 "D_C1" V 7546 8071 50  0000 R CNN
+F 1 "D" V 7445 8071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 7500 8150 50  0001 C CNN
+F 3 "~" H 7500 8150 50  0001 C CNN
+	1    7500 8150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 8300 7500 8300
+Wire Wire Line
+	8150 6900 8150 7900
+Wire Wire Line
+	7550 7900 7500 7900
+Wire Wire Line
+	7500 7900 7500 8000
+Connection ~ 8150 7900
+Connection ~ 7500 8300
+$Comp
+L keyboard_parts:KEYSW K_V1
+U 1 1 5C8C2961
+P 8850 7900
+F 0 "K_V1" H 8850 8133 60  0000 C CNN
+F 1 "KEYSW" H 8850 7800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 8850 7900 60  0001 C CNN
+F 3 "" H 8850 7900 60  0000 C CNN
+	1    8850 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_V1
+U 1 1 025C0E78
+P 8500 8150
+F 0 "D_V1" V 8546 8071 50  0000 R CNN
+F 1 "D" V 8445 8071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 8500 8150 50  0001 C CNN
+F 3 "~" H 8500 8150 50  0001 C CNN
+	1    8500 8150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7500 8300 8500 8300
+Wire Wire Line
+	9150 6900 9150 7900
+Wire Wire Line
+	8550 7900 8500 7900
+Wire Wire Line
+	8500 7900 8500 8000
+Connection ~ 9150 7900
+Connection ~ 8500 8300
+$Comp
+L keyboard_parts:KEYSW K_B2
+U 1 1 5C8C297A
+P 9850 7900
+F 0 "K_B2" H 9850 8133 60  0000 C CNN
+F 1 "KEYSW" H 9850 7800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 9850 7900 60  0001 C CNN
+F 3 "" H 9850 7900 60  0000 C CNN
+	1    9850 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_B2
+U 1 1 025C5AB5
+P 9500 8150
+F 0 "D_B2" V 9546 8071 50  0000 R CNN
+F 1 "D" V 9445 8071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 9500 8150 50  0001 C CNN
+F 3 "~" H 9500 8150 50  0001 C CNN
+	1    9500 8150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8500 8300 9500 8300
+Wire Wire Line
+	10150 6900 10150 7900
+Wire Wire Line
+	9550 7900 9500 7900
+Wire Wire Line
+	9500 7900 9500 8000
+Connection ~ 10150 7900
+Connection ~ 9500 8300
+$Comp
+L keyboard_parts:KEYSW K_B1
+U 1 1 025C1800
+P 10850 7900
+F 0 "K_B1" H 10850 8133 60  0000 C CNN
+F 1 "KEYSW" H 10850 7800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 10850 7900 60  0001 C CNN
+F 3 "" H 10850 7900 60  0000 C CNN
+	1    10850 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_B1
+U 1 1 5C8C2966
+P 10500 8150
+F 0 "D_B1" V 10546 8071 50  0000 R CNN
+F 1 "D" V 10445 8071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 10500 8150 50  0001 C CNN
+F 3 "~" H 10500 8150 50  0001 C CNN
+	1    10500 8150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 8300 10500 8300
+Wire Wire Line
+	11150 6900 11150 7900
+Wire Wire Line
+	10550 7900 10500 7900
+Wire Wire Line
+	10500 7900 10500 8000
+Connection ~ 11150 7900
+Connection ~ 10500 8300
+$Comp
+L keyboard_parts:KEYSW K_N1
+U 1 1 025C4023
+P 11850 7900
+F 0 "K_N1" H 11850 8133 60  0000 C CNN
+F 1 "KEYSW" H 11850 7800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 11850 7900 60  0001 C CNN
+F 3 "" H 11850 7900 60  0000 C CNN
+	1    11850 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_N1
+U 1 1 5C8C2970
+P 11500 8150
+F 0 "D_N1" V 11546 8071 50  0000 R CNN
+F 1 "D" V 11445 8071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 11500 8150 50  0001 C CNN
+F 3 "~" H 11500 8150 50  0001 C CNN
+	1    11500 8150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10500 8300 11500 8300
+Wire Wire Line
+	12150 6900 12150 7900
+Wire Wire Line
+	11550 7900 11500 7900
+Wire Wire Line
+	11500 7900 11500 8000
+Connection ~ 11500 8300
+$Comp
+L keyboard_parts:KEYSW K_M1
+U 1 1 5C8C299C
+P 12850 7900
+F 0 "K_M1" H 12850 8133 60  0000 C CNN
+F 1 "KEYSW" H 12850 7800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 12850 7900 60  0001 C CNN
+F 3 "" H 12850 7900 60  0000 C CNN
+	1    12850 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_M1
+U 1 1 025CFDFF
+P 12500 8150
+F 0 "D_M1" V 12546 8071 50  0000 R CNN
+F 1 "D" V 12445 8071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 12500 8150 50  0001 C CNN
+F 3 "~" H 12500 8150 50  0001 C CNN
+	1    12500 8150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11500 8300 12500 8300
+Wire Wire Line
+	13150 6900 13150 7900
+Wire Wire Line
+	12550 7900 12500 7900
+Wire Wire Line
+	12500 7900 12500 8000
+Connection ~ 12500 8300
+$Comp
+L keyboard_parts:KEYSW K_COMMA1
+U 1 1 025C1253
+P 13850 7900
+F 0 "K_COMMA1" H 13850 8133 60  0000 C CNN
+F 1 "KEYSW" H 13850 7800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 13850 7900 60  0001 C CNN
+F 3 "" H 13850 7900 60  0000 C CNN
+	1    13850 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_COMMA1
+U 1 1 5C8C2964
+P 13500 8150
+F 0 "D_COMMA1" V 13546 8071 50  0000 R CNN
+F 1 "D" V 13445 8071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 13500 8150 50  0001 C CNN
+F 3 "~" H 13500 8150 50  0001 C CNN
+	1    13500 8150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12500 8300 13500 8300
+Wire Wire Line
+	14150 6900 14150 7900
+Wire Wire Line
+	13550 7900 13500 7900
+Wire Wire Line
+	13500 7900 13500 8000
+Connection ~ 13500 8300
+$Comp
+L keyboard_parts:KEYSW K_DOT1
+U 1 1 025C310F
+P 14850 7900
+F 0 "K_DOT1" H 14850 8133 60  0000 C CNN
+F 1 "KEYSW" H 14850 7800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 14850 7900 60  0001 C CNN
+F 3 "" H 14850 7900 60  0000 C CNN
+	1    14850 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_DOT1
+U 1 1 5C8C296C
+P 14500 8150
+F 0 "D_DOT1" V 14546 8071 50  0000 R CNN
+F 1 "D" V 14445 8071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 14500 8150 50  0001 C CNN
+F 3 "~" H 14500 8150 50  0001 C CNN
+	1    14500 8150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13500 8300 14500 8300
+Wire Wire Line
+	15150 6900 15150 7900
+Wire Wire Line
+	14550 7900 14500 7900
+Wire Wire Line
+	14500 7900 14500 8000
+Connection ~ 14500 8300
+$Comp
+L keyboard_parts:KEYSW K_SLASH1
+U 1 1 5C8C2972
+P 15850 7900
+F 0 "K_SLASH1" H 15850 8133 60  0000 C CNN
+F 1 "KEYSW" H 15850 7800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 15850 7900 60  0001 C CNN
+F 3 "" H 15850 7900 60  0000 C CNN
+	1    15850 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_SLASH1
+U 1 1 025C42F3
+P 15500 8150
+F 0 "D_SLASH1" V 15546 8071 50  0000 R CNN
+F 1 "D" V 15445 8071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 15500 8150 50  0001 C CNN
+F 3 "~" H 15500 8150 50  0001 C CNN
+	1    15500 8150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14500 8300 15500 8300
+Wire Wire Line
+	16150 6900 16150 7900
+Wire Wire Line
+	15550 7900 15500 7900
+Wire Wire Line
+	15500 7900 15500 8000
+Connection ~ 15500 8300
+$Comp
+L keyboard_parts:KEYSW K_SHIFT2
+U 1 1 025CE1C9
+P 16850 7900
+F 0 "K_SHIFT2" H 16850 8133 60  0000 C CNN
+F 1 "KEYSW" H 16850 7800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 16850 7900 60  0001 C CNN
+F 3 "" H 16850 7900 60  0000 C CNN
+	1    16850 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_SHIFT2
+U 1 1 5C8C2998
+P 16500 8150
+F 0 "D_SHIFT2" V 16546 8071 50  0000 R CNN
+F 1 "D" V 16445 8071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 16500 8150 50  0001 C CNN
+F 3 "~" H 16500 8150 50  0001 C CNN
+	1    16500 8150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15500 8300 16500 8300
+Wire Wire Line
+	17150 6900 17150 7900
+Wire Wire Line
+	16550 7900 16500 7900
+Wire Wire Line
+	16500 7900 16500 8000
+Connection ~ 16500 8300
+$Comp
+L keyboard_parts:KEYSW K_13
+U 1 1 025CBEEC
+P 17850 7900
+F 0 "K_13" H 17850 8133 60  0000 C CNN
+F 1 "KEYSW" H 17850 7800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 17850 7900 60  0001 C CNN
+F 3 "" H 17850 7900 60  0000 C CNN
+	1    17850 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_13
+U 1 1 5C8C298A
+P 17500 8150
+F 0 "D_13" V 17546 8071 50  0000 R CNN
+F 1 "D" V 17445 8071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 17500 8150 50  0001 C CNN
+F 3 "~" H 17500 8150 50  0001 C CNN
+	1    17500 8150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18150 6900 18150 7900
+Wire Wire Line
+	17550 7900 17500 7900
+Wire Wire Line
+	17500 7900 17500 8000
+$Comp
+L keyboard_parts:KEYSW K_CTRL1
+U 1 1 5C8C2982
+P 4850 8900
+F 0 "K_CTRL1" H 4850 9133 60  0000 C CNN
+F 1 "KEYSW" H 4850 8800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 4850 8900 60  0001 C CNN
+F 3 "" H 4850 8900 60  0000 C CNN
+	1    4850 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_CTRL1
+U 1 1 025C9460
+P 4500 9150
+F 0 "D_CTRL1" V 4546 9071 50  0000 R CNN
+F 1 "D" V 4445 9071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 4500 9150 50  0001 C CNN
+F 3 "~" H 4500 9150 50  0001 C CNN
+	1    4500 9150
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4250 9300 0    50   Input ~ 0
+row4
+Wire Wire Line
+	4250 9300 4500 9300
+Wire Wire Line
+	5150 7900 5150 8900
+Wire Wire Line
+	4550 8900 4500 8900
+Wire Wire Line
+	4500 8900 4500 9000
+Connection ~ 4500 9300
+$Comp
+L keyboard_parts:KEYSW K_ALT1
+U 1 1 025C2DF3
+P 5850 8900
+F 0 "K_ALT1" H 5850 9133 60  0000 C CNN
+F 1 "KEYSW" H 5850 8800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 5850 8900 60  0001 C CNN
+F 3 "" H 5850 8900 60  0000 C CNN
+	1    5850 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_ALT1
+U 1 1 5C8C296B
+P 5500 9150
+F 0 "D_ALT1" V 5546 9071 50  0000 R CNN
+F 1 "D" V 5445 9071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 5500 9150 50  0001 C CNN
+F 3 "~" H 5500 9150 50  0001 C CNN
+	1    5500 9150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 9300 5500 9300
+Wire Wire Line
+	6150 7900 6150 8900
+Wire Wire Line
+	5550 8900 5500 8900
+Wire Wire Line
+	5500 8900 5500 9000
+Connection ~ 5500 9300
+$Comp
+L keyboard_parts:KEYSW K_10
+U 1 1 5C8C2965
+P 6850 8900
+F 0 "K_10" H 6850 9133 60  0000 C CNN
+F 1 "KEYSW" H 6850 8800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 6850 8900 60  0001 C CNN
+F 3 "" H 6850 8900 60  0000 C CNN
+	1    6850 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_10
+U 1 1 025C12B3
+P 6500 9150
+F 0 "D_10" V 6546 9071 50  0000 R CNN
+F 1 "D" V 6445 9071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 6500 9150 50  0001 C CNN
+F 3 "~" H 6500 9150 50  0001 C CNN
+	1    6500 9150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5500 9300 6500 9300
+Wire Wire Line
+	7150 7900 7150 8900
+Wire Wire Line
+	6550 8900 6500 8900
+Wire Wire Line
+	6500 8900 6500 9000
+Connection ~ 6500 9300
+$Comp
+L keyboard_parts:KEYSW K_11
+U 1 1 025CC2C4
+P 7850 8900
+F 0 "K_11" H 7850 9133 60  0000 C CNN
+F 1 "KEYSW" H 7850 8800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 7850 8900 60  0001 C CNN
+F 3 "" H 7850 8900 60  0000 C CNN
+	1    7850 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_11
+U 1 1 5C8C298D
+P 7500 9150
+F 0 "D_11" V 7546 9071 50  0000 R CNN
+F 1 "D" V 7445 9071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 7500 9150 50  0001 C CNN
+F 3 "~" H 7500 9150 50  0001 C CNN
+	1    7500 9150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8150 7900 8150 8900
+Wire Wire Line
+	7550 8900 7500 8900
+Wire Wire Line
+	7500 8900 7500 9000
+Connection ~ 7500 9300
+$Comp
+L keyboard_parts:KEYSW K_12
+U 1 1 025C120E
+P 8850 8900
+F 0 "K_12" H 8850 9133 60  0000 C CNN
+F 1 "KEYSW" H 8850 8800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 8850 8900 60  0001 C CNN
+F 3 "" H 8850 8900 60  0000 C CNN
+	1    8850 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_12
+U 1 1 5C8C2962
+P 8500 9150
+F 0 "D_12" V 8546 9071 50  0000 R CNN
+F 1 "D" V 8445 9071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 8500 9150 50  0001 C CNN
+F 3 "~" H 8500 9150 50  0001 C CNN
+	1    8500 9150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7500 9300 8500 9300
+Wire Wire Line
+	9150 7900 9150 8900
+Wire Wire Line
+	8550 8900 8500 8900
+Wire Wire Line
+	8500 8900 8500 9000
+Connection ~ 8500 9300
+$Comp
+L keyboard_parts:KEYSW K_ALT2
+U 1 1 5C8C298B
+P 9850 8900
+F 0 "K_ALT2" H 9850 9133 60  0000 C CNN
+F 1 "KEYSW" H 9850 8800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 9850 8900 60  0001 C CNN
+F 3 "" H 9850 8900 60  0000 C CNN
+	1    9850 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_ALT2
+U 1 1 025CC1B6
+P 9500 9150
+F 0 "D_ALT2" V 9546 9071 50  0000 R CNN
+F 1 "D" V 9445 9071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 9500 9150 50  0001 C CNN
+F 3 "~" H 9500 9150 50  0001 C CNN
+	1    9500 9150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8500 9300 9500 9300
+Wire Wire Line
+	10150 7900 10150 8900
+Wire Wire Line
+	9550 8900 9500 8900
+Wire Wire Line
+	9500 8900 9500 9000
+Connection ~ 9500 9300
+$Comp
+L keyboard_parts:KEYSW K_CTRL2
+U 1 1 025CDB89
+P 10850 8900
+F 0 "K_CTRL2" H 10850 9133 60  0000 C CNN
+F 1 "KEYSW" H 10850 8800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 10850 8900 60  0001 C CNN
+F 3 "" H 10850 8900 60  0000 C CNN
+	1    10850 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_CTRL2
+U 1 1 5C8C2995
+P 10500 9150
+F 0 "D_CTRL2" V 10546 9071 50  0000 R CNN
+F 1 "D" V 10445 9071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 10500 9150 50  0001 C CNN
+F 3 "~" H 10500 9150 50  0001 C CNN
+	1    10500 9150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 9300 10500 9300
+Wire Wire Line
+	11150 7900 11150 8900
+Wire Wire Line
+	10550 8900 10500 8900
+Wire Wire Line
+	10500 8900 10500 9000
+$Comp
+L keyboard_parts:KEYSW K_BACKSPACE2
+U 1 1 5C8F0B2D
+P 18850 5000
+F 0 "K_BACKSPACE2" H 18850 5233 60  0000 C CNN
+F 1 "KEYSW" H 18850 4900 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 18850 5000 60  0001 C CNN
+F 3 "" H 18850 5000 60  0000 C CNN
+	1    18850 5000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	18550 5000 18500 5000
+Connection ~ 18500 5000
+$Comp
+L keyboard_parts:KEYSW K_BSLSH2
+U 1 1 5C95C365
+P 19750 4900
+F 0 "K_BSLSH2" H 19750 5133 60  0000 C CNN
+F 1 "KEYSW" H 19750 4800 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 19750 4900 60  0001 C CNN
+F 3 "" H 19750 4900 60  0000 C CNN
+	1    19750 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_BSLSH2
+U 1 1 5C95C4E3
+P 19400 5150
+F 0 "D_BSLSH2" V 19446 5071 50  0000 R CNN
+F 1 "D" V 19345 5071 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 19400 5150 50  0001 C CNN
+F 3 "~" H 19400 5150 50  0001 C CNN
+	1    19400 5150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18500 5300
+Wire Wire Line
+	19450 4900 19400 4900
+Wire Wire Line
+	19400 4900 19400 5000
+Text GLabel 20050 4550 0    50   Input ~ 0
+col15
+Wire Wire Line
+	20050 4550 20050 4900
+$Comp
+L keyboard_parts:KEYSW K_10_2
+U 1 1 5C997373
+P 6850 9000
+F 0 "K_10_2" H 6850 9233 60  0000 C CNN
+F 1 "KEYSW" H 6850 8900 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 6850 9000 60  0001 C CNN
+F 3 "" H 6850 9000 60  0000 C CNN
+	1    6850 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K_11_2
+U 1 1 5C9BC13B
+P 7850 9000
+F 0 "K_11_2" H 7850 9233 60  0000 C CNN
+F 1 "KEYSW" H 7850 8900 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 7850 9000 60  0001 C CNN
+F 3 "" H 7850 9000 60  0000 C CNN
+	1    7850 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 9000 6500 9000
+Connection ~ 6500 9000
+Wire Wire Line
+	7150 9000 7150 8900
+Connection ~ 7150 8900
+Wire Wire Line
+	8150 8900 8150 9000
+Connection ~ 8150 8900
+Wire Wire Line
+	7550 9000 7500 9000
+Connection ~ 7500 9000
+$Comp
+L keyboard_parts:KEYSW K_SHIFT2_2
+U 1 1 5CA08F22
+P 16850 8000
+F 0 "K_SHIFT2_2" H 16850 8233 60  0000 C CNN
+F 1 "KEYSW" H 16850 7900 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 16850 8000 60  0001 C CNN
+F 3 "" H 16850 8000 60  0000 C CNN
+	1    16850 8000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	16550 8000 16500 8000
+Connection ~ 16500 8000
+Wire Wire Line
+	17150 8000 17150 7900
+Connection ~ 17150 7900
+$Comp
+L keyboard_parts:KEYSW K_CAPS_LOCK1_2
+U 1 1 5CA3093E
+P 5850 7000
+F 0 "K_CAPS_LOCK1_2" H 5850 7233 60  0000 C CNN
+F 1 "KEYSW" H 5850 6900 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket" H 5850 7000 60  0001 C CNN
+F 3 "" H 5850 7000 60  0000 C CNN
+	1    5850 7000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5550 7000 5500 7000
+Connection ~ 5500 7000
+Wire Wire Line
+	6500 9300 7500 9300
+Wire Wire Line
+	6150 6900 6150 7000
+Connection ~ 6150 7000
+Wire Wire Line
+	6150 7000 6150 7900
+Wire Wire Line
+	5500 7300 6500 7300
+Wire Wire Line
+	19150 4900 19150 5000
+Connection ~ 19150 5000
+Wire Wire Line
+	19150 5000 19150 5900
+Wire Wire Line
+	18500 5300 19400 5300
+Wire Wire Line
+	16500 8300 17500 8300
+$EndSCHEMATC
