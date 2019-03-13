@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:alice-cache
+LIBS:mad-hatter-cache
 EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
@@ -2580,9 +2580,6 @@ Text GLabel 4750 10700 0    50   Input ~ 0
 COL12
 NoConn ~ 4750 9300
 NoConn ~ 4750 9400
-NoConn ~ 4750 9500
-NoConn ~ 4750 9600
-NoConn ~ 4750 9700
 NoConn ~ 4750 9800
 NoConn ~ 3650 9100
 Wire Wire Line
@@ -2791,4 +2788,59 @@ Wire Wire Line
 Wire Wire Line
 	5550 4200 5550 5200
 Connection ~ 5550 4200
+$Comp
+L Connector:AVR-ISP-6 J1
+U 1 1 5C8BF2DB
+P 10400 9800
+F 0 "J1" H 10120 9804 50  0000 R CNN
+F 1 "AVR-ISP-6" H 10120 9895 50  0000 R CNN
+F 2 "keyboard_parts:AVR_ICSP_3x2" V 10150 9850 50  0001 C CNN
+F 3 " ~" H 9125 9250 50  0001 C CNN
+	1    10400 9800
+	-1   0    0    1   
+$EndComp
+Text GLabel 4750 9500 0    50   Input ~ 0
+SCK
+Text GLabel 10000 9800 0    50   Input ~ 0
+SCK
+Text GLabel 10000 9900 0    50   Input ~ 0
+MOSI
+Text GLabel 10000 10000 0    50   Input ~ 0
+MISO
+Text GLabel 10000 9700 0    50   Input ~ 0
+RST
+$Comp
+L keyboard_parts:VUSB #PWR0117
+U 1 1 5C94BE31
+P 10500 10300
+F 0 "#PWR0117" H 10500 10270 20  0001 C CNN
+F 1 "VUSB" V 10500 10408 30  0000 L CNN
+F 2 "" H 10500 10300 60  0000 C CNN
+F 3 "" H 10500 10300 60  0000 C CNN
+	1    10500 10300
+	-1   0    0    1   
+$EndComp
+Text GLabel 3250 9900 3    50   Input ~ 0
+RST
+Text GLabel 4750 9600 0    50   Input ~ 0
+MOSI
+Text GLabel 4750 9700 0    50   Input ~ 0
+MISO
+$Comp
+L power:GND #PWR?
+U 1 1 5CB0A415
+P 10750 9400
+F 0 "#PWR?" H 10750 9150 50  0001 C CNN
+F 1 "GND" H 10755 9227 50  0000 C CNN
+F 2 "" H 10750 9400 50  0001 C CNN
+F 3 "" H 10750 9400 50  0001 C CNN
+	1    10750 9400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 9400 10500 9350
+Wire Wire Line
+	10500 9350 10750 9350
+Wire Wire Line
+	10750 9350 10750 9400
 $EndSCHEMATC
