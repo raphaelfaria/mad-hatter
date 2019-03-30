@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/raphael/Workspace/keyboards/mad-hatter/mad-hatter.sch)
-    (date "Fr 22 Mär 2019 23:48:06 CET")
+    (date "Fr 29 Mär 2019 09:42:39 CET")
     (tool "Eeschema 5.0.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
