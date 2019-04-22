@@ -2092,7 +2092,7 @@ F 1 "KEYSW" H 8250 6200 60  0001 C CNN
 F 2 "acheronKeyboardSwitches:MX100H" H 8250 6300 60  0001 C CNN
 F 3 "" H 8250 6300 60  0000 C CNN
 	1    8250 6300
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L keyboard_parts:KEYSW K_GUI1_2
@@ -2103,7 +2103,7 @@ F 1 "KEYSW" H 9250 6200 60  0001 C CNN
 F 2 "acheronKeyboardSwitches:MX100H" H 9250 6300 60  0001 C CNN
 F 3 "" H 9250 6300 60  0000 C CNN
 	1    9250 6300
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	7950 6300 7900 6300
@@ -2148,8 +2148,6 @@ $EndComp
 Wire Wire Line
 	3950 4300 3900 4300
 Connection ~ 3900 4300
-Wire Wire Line
-	7900 6600 8900 6600
 Connection ~ 4550 4300
 Wire Wire Line
 	3900 4600 4900 4600
@@ -2835,8 +2833,6 @@ Wire Wire Line
 	12900 6600 17900 6600
 Connection ~ 16550 4200
 Wire Wire Line
-	8900 6600 11900 6600
-Wire Wire Line
 	11550 4200 11550 5200
 Connection ~ 11550 4200
 Wire Wire Line
@@ -2900,4 +2896,8 @@ Wire Wire Line
 	2150 9100 2150 8900
 Wire Wire Line
 	2150 8900 4000 8900
+Wire Wire Line
+	7900 6600 8900 6600
+Wire Wire Line
+	8900 6600 11900 6600
 $EndSCHEMATC
